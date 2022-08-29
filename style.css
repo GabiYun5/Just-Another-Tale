@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    background: -moz-linear-gradient(360deg, #ed1c24, black, black, #1c50eb);
+}
+#portada{
+    margin: 100px;
+}
+#yui1{
+    float: right;
+    padding: 60px;
+}
+#yui2{
+    float: left;
+    padding: 60px;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 55555;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    padding: 20px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.links:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+#vacio img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+}
+iframe{
+    width: 80%;
+    min-height: 500px;
+}
+#pauseim{
+    display: none;
+}
