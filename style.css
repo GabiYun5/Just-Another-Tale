@@ -5,7 +5,8 @@ body{
     background: linear-gradient(90deg, #ed1c24, black, black, #1c50eb);
 }
 #portada{
-    margin: 100px;
+    margin: 5%;
+    width: 60%;
 }
 #yui1{
     float: right;
