@@ -2,7 +2,7 @@ body{
     text-align: center;
     color: white;
     font-family: 'Silkscreen', cursive;
-    background: -moz-linear-gradient(360deg, #ed1c24, black, black, #1c50eb);
+    background: linear-gradient(360deg, #ed1c24, black, black, #1c50eb);
 }
 #portada{
     margin: 100px;
