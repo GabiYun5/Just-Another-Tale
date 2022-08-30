@@ -10,11 +10,11 @@ body{
 }
 #yui1{
     float: right;
-    padding: 60px;
+    padding-right: 60px;
 }
 #yui2{
     float: left;
-    padding: 60px;
+    padding-left: 60px;
 }
 .menu{
     list-style: none;
