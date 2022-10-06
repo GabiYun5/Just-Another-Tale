@@ -1,7 +1,7 @@
 body{
     text-align: center;
-    color: white;
-    font-family: 'Silkscreen', cursive;
+    color: white !important;
+    font-family: 'Silkscreen', cursive !important;
     background: linear-gradient(90deg, #ed1c24, black, black, #1c50eb);
 }
 #portada{
@@ -16,27 +16,6 @@ body{
     float: left;
     padding-left: 60px;
 }
-.menu{
-    list-style: none;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    z-index: 55555;
-    cursor: pointer;
-    background-color: #111a2198;
-}
-.links{
-    float: left;
-    padding: 20px;
-}
-.links a{
-    color: white;
-    text-decoration: none;
-}
-.links:hover{
-    font-size: larger;
-    text-decoration: underline;
-}
 #vacio img{
     margin-left: auto;
     margin-right: auto;
@@ -49,4 +28,7 @@ iframe{
 }
 #pauseim{
     display: none;
+}
+.navbar-brand{
+    font-family: 'Patrick Hand', cursive;
 }
