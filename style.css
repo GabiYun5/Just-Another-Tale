@@ -7,6 +7,7 @@ body{
 #portada{
     margin: 5%;
     width: 60%;
+    padding-top: 50px;
 }
 #yui1{
     float: right;
@@ -31,4 +32,10 @@ iframe{
 }
 .navbar-brand{
     font-family: 'Patrick Hand', cursive;
+}
+.linea{
+    height: 6px;
+    width: 60px;
+    background-color: bisque;
+    margin: 8px auto;
 }
