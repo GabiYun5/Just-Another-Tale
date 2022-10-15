@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de GabiYun5</title>
+    <title>=)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Silkscreen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -26,41 +30,44 @@
             <ul class="nav navbar-nav">
                 <li><a href="#Bienvenida">Inicio</a></li>
                 <li><a href="#Introduccion">Informacion</a></li>
-                <li><a href="#Viajes">Viajes</a></li>
-                <li><a href="#videos">Pelis, Series etc.</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#videos">Videos</a></li>
                 <li><a href="#Musica">Musica</a></li>
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <h2 id="Viajes">Destinos que visite y me gusto</h2>
+    <section id="Bienvenida" class="parallax-container">
+        <div class="parallax-inner">
+            <img src="portada-export.png" alt="" id="portada">
+        </div>
+    </section>
+    <section id="Introduccion">
         <div class="linea"></div>
-        <div class="panel panel-info">
-            <h4 class="panel-heading text-capitalize">Museo nacional de la antropologia</h4>
-            <img class="img-responsive center-block"
-                src="https://upload.wikimedia.org/wikipedia/commons/9/94/Musee_National_Anthropologie-Entree.jpg"
-                alt="">
-            <h5 class="text-success text-capitalize">fui el 16 de agosto</h5>
-            <p class="text-muted panel-body">Museo con muchas cosas padres</p>
-        </div>
-        <h2 id="videos">Pelis, Series etc.</h2>
+        <p>Just Another Tale es un Universo alternativo de Undertale y Deltarune.
+            Que añade y cambia algunos personas en consecuensia tambien afectando la historia principal</p>
+    </section>
+    <section id="galeria">
         <div class="linea"></div>
-        <div class="bg-primary Pelis" data-toggle="collapse" data-target="#V1">
-            <span class="glyphicon glyphicon-film"></span>
-            Ejemplo :D
-            <span class="glyphicon glyphicon-chevron-down pull-right"></span>
-        </div>
-        <div id="V1" class="collapse">
-            <img src="https://i.pinimg.com/originals/90/e4/d4/90e4d4e5fa9ab10eafc3ae29cca284bf.jpg" alt=""
-                class="img-responsive col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <div>
-                <h3>⭐⭐⭐⭐⭐</h3>
-                <h2 class="text-success">que wena peli</h2>
-                <h1 class="peligro">Spoilers!</h1>
-                <kbd class="text-muted">Fue epica la parte donde ▇▇▇▇▇ y cuando ▇▇▇▇▇ y que ▇▇▇▇▇ no cren?</kbd>
-            </div>
-        </div>
-    </div>
+        <img src="Yui1-export.png" alt="" id="yui1">
+        <img src="Sprite-0002-export.png" alt="" id="yui2">
+        <img src="Sprite-0003-export.png" alt="">
+        <img src="Sprite-0004-export.png" alt="">
+        <img src="Sprite-0006-export.png" alt="">
+        <img src="Sprite-0001-export.png" alt="">
+        <img src="Sprite-0005-export.png" alt="">
+        <img src="Sprite-0008-export.png" alt="">
+        <img src="Sprite-0007-export.png" alt="">
+        <div id="vacio"><img src="vacio5-export.png" alt=""></div>
+    </section>
+    <section id="videos">
+        <div class="linea"></div>
+    </section>
+    <section id="Musica">
+        <div class="linea"></div>
+        <audio src="04-Snowful.mp3" id="introm"></audio>
+        <i id="playim" class="fa fa-play" onclick="playim()"></i>
+        <i id="pauseim" class="fa fa-pause" onclick="pauseim()"></i>
+    </section>
 </body>
 
 </html>
